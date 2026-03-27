@@ -1,0 +1,29 @@
+title: Priyam Biswas // Staff Security
+description: "Offensive Security Research Scientist @ Intel | PhD @ Purdue"
+remote_theme: "mmistakes/minimal-mistakes@4.24.4"
+minimal_mistakes_skin: "dark" # Professional geek aesthetic
+
+# Navigation Tabs
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Outreach"
+    url: "/outreach/"
+
+# Sidebar Profile
+author:
+  name: "Priyam Biswas, PhD"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Staff Offensive Security Research Scientist @ Intel IPAS. Bridging Agentic AI & Security Assurance."
+  location: "Santa Clara, CA"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/priyam-biswas/"
+    - label: "Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=NXAbDx4AAAAJ"
