@@ -1,29 +1,64 @@
-title: Priyam Biswas // Staff Security
-description: "Offensive Security Research Scientist @ Intel | PhD @ Purdue"
-remote_theme: "mmistakes/minimal-mistakes@4.24.4"
-minimal_mistakes_skin: "dark" # Professional geek aesthetic
+# ──────────────────────────────────────────────
+# Site Settings
+# ──────────────────────────────────────────────
+title: "Priyam Biswas"
+subtitle: "Staff Research Scientist · Intel IPAS"
+name: "Priyam Biswas"
+description: >-
+  Personal page of Priyam Biswas — Staff Offensive Security Research
+  Scientist at Intel IPAS. PhD, Purdue University.
+url: "https://beduin23.github.io"
+baseurl: ""
 
-# Navigation Tabs
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Outreach"
-    url: "/outreach/"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "air"
 
-# Sidebar Profile
+locale: "en-US"
+encoding: "utf-8"
+markdown: kramdown
+
+# ──────────────────────────────────────────────
+# Build & Plugins
+# ──────────────────────────────────────────────
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# ──────────────────────────────────────────────
+# Author / Sidebar Profile
+# ──────────────────────────────────────────────
 author:
   name: "Priyam Biswas, PhD"
   avatar: "/assets/images/profile.jpg"
-  bio: "Staff Offensive Security Research Scientist @ Intel IPAS. Bridging Agentic AI & Security Assurance."
+  bio: "Staff Offensive Security Research Scientist, Intel IPAS"
   location: "Santa Clara, CA"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/priyam-biswas/"
-    - label: "Scholar"
+    - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=NXAbDx4AAAAJ"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/beduin23"
+
+# ──────────────────────────────────────────────
+# Reading & Output
+# ──────────────────────────────────────────────
+words_per_minute: 200
+search: false
+
+# ──────────────────────────────────────────────
+# Page Defaults
+# ──────────────────────────────────────────────
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      toc: false
